@@ -21,13 +21,23 @@
   <!--Instagram logo part-->
   <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <i class="fa-brands fa-instagram"></i>
-    
-       Instagram
-      </a>
-      <button type="button" class="btn btn-success">Create A New Post</button>
+      <a class="navbar-brand"><i class="fa-brands fa-instagram"></i>Instagram</a>
+      <form class="d-flex" role="search">
+        <button type="button" class="btn btn-success me-3">Create A New Post </button>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-gear"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </form>
+    </div>
   </nav>
+     
   <!--Button on the Navbar part-->
 
   
